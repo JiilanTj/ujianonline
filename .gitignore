@@ -1,0 +1,57 @@
+# Laravel specific
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+
+# IDE specific
+/.fleet
+/.idea
+/.vscode
+/.vagrant
+*.sublime-workspace
+*.sublime-project
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Build files
+/public/build/
+/public/dist/
+/public/mix-manifest.json
+
+# Testing
+/coverage/
+.phpunit.cache
+
+# Composer
+composer.phar
+
+# Local development
+docker-compose.override.yml
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Cache and temp files
+*.cache
+*.tmp
+*.swp
+*.swo
